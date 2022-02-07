@@ -30,6 +30,7 @@ public class QuestionServiceImpl implements QuestionService {
         }
         throw  new QuestionNotFound();
     }
+    //comment
 
     @Override
     public Collection<Question> getAll() {
